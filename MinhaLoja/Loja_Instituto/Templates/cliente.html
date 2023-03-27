@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+      background-color: black;
+    }
+
+    .container{
+        width: 100%;
+        height: 300px;
+        margin-top: 300px;
+    }
+
+    .container a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+        color: #d7d9f2;
+        font-size: 30px;
+    }
+
+    .title{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000000;
+      background-color: #fdca40;
+   }
+
+</style>
+
+<body>
+    <div class="title">
+        <h1>Bem-Vindo a página do Cliente!</h1>
+    </div>
+    <div class="container">
+
+            <a href="http://127.0.0.1:8000/app/create"><p>Cadastrar</p></a>
+            <br>
+            <a href="http://127.0.0.1:8000/app/read"><p>Verificar</p></a>
+            <br>
+            <a href="http://127.0.0.1:8000/app/update"><p>Editar</p></a>
+            <br>
+            <a href="http://127.0.0.1:8000/app/delete"><p>Excluir</p></a>
+            <br>
+            <a href="http://127.0.0.1:8000/app/home"><p>Voltar a Home</p></a>
+        </div>
+</body>
+</html>

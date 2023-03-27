@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastrar</title>
+</head>
+<style>
+
+   *{
+      padding: 0;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+   }
+
+   body{
+      background-color: black;
+   }
+
+   .mensagem{
+      width: 100%;
+      height: 40px;
+      background-color: #d90429;
+      display: flex;
+      color: #d7d9f2;
+      justify-content: center;
+      align-items: center;
+   }
+   
+   input{
+      width: 450px;
+      height: 50px;
+      font-size: 20px;
+      background-color: black;
+      border-color: #3da5d9;
+      color: #d7d9f2;
+   }
+
+   input:hover{
+      width: 450px;
+      height: 50px;
+      font-size: 20px;
+      background-color: #0c4663;
+      border-color: #ffffff;
+      color: #d7d9f2;
+   }
+
+   .forms{
+      width: 100%;
+      height: 800px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+   }
+
+   button{
+      width: 455px;
+      height: 50px;
+      background-color: #3da5d9;
+      color: #d7d9f2;
+      font-size: 20px;
+   }
+
+   button:hover{
+      width: 455px;
+      height: 50px;
+      background-color: #2f92c4;
+      color: #d7d9f2;
+      font-size: 20px;
+   }
+
+   .title{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #d7d9f2;
+      background-color: #3da5d9;
+   }
+
+   .link{
+      width: 455px;
+      height: 50px;
+      background-color: #3da5d9;
+      color: #d7d9f2;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .link a{
+      width: 455px;
+      height: 50px;
+      background-color: #3da5d9;
+      color: #d7d9f2;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #d7d9f2;
+      text-decoration: none;
+   }
+
+   .link a:hover{
+      width: 455px;
+      height: 50px;
+      background-color: #2f92c4;
+      color: #d7d9f2;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #d7d9f2;
+      text-decoration: none;
+   }
+
+</style>
+
+
+<body>
+   {% if messages %}
+        <ul class="messages">
+            <div class="mensagem">
+            {% for mensagem in messages %}
+            <li {% if mensagem.tags %} class="alert alert-{{message.tags}}" {% endif %}>{{mensagem}}</li>
+            {% endfor %}
+        </div>
+        </ul>
+    {% endif %}
+
+    <div class="title">
+      <h1>CADASTRO CLIENTE</h1>
+    </div>
+
+   <div class="forms">
+      <form method="POST" action="{% url 'create' %}">{% csrf_token %}
+         <input type="text" placeholder="Nome" name="nome_cliente">
+         <br>
+         <br>
+         <input type="text" placeholder="CPF" name="cpf_cliente">
+         <br>
+         <br>
+         <input type="text" placeholder="Endereço" name="endereco_cliente">
+         <br>
+         <br>
+         <input type="text" placeholder="Cidade" name="cidade_cliente">
+         <br>
+         <br>
+         <input type="text" placeholder="UF" name="estado_cliente">
+         <br>
+         <br>
+         <button type="submit">Enviar</button>
+         <br>
+         <br>
+         <div class="link">
+            <a href="http://127.0.0.1:8000/app/read/">Clientes cadastrados</a>
+         </div>
+         
+      </form>
+   </div>
+   
+</body>
+
+</html>

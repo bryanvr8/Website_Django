@@ -1,0 +1,14 @@
+Compra;Venda;Variação;Porcetagem de Variação;Máximo;Minimo;Data;hora
+5.2965;5.298;0.043;0.82;5.3281;5.2505;1678905157;2023-03-15 15:32:37;2023-03-15 15:34:10.699506
+5.2965;5.298;0.043;0.82;5.3281;5.2505;1678905157;2023-03-15 15:32:37;2023-03-15 15:34:15.765861
+5.2965;5.298;0.043;0.82;5.3281;5.2505;1678905157;2023-03-15 15:32:37;2023-03-15 15:34:20.857536
+5.2965;5.298;0.043;0.82;5.3281;5.2505;1678905157;2023-03-15 15:32:37;2023-03-15 15:34:25.941080
+5.2965;5.298;0.043;0.82;5.3281;5.2505;1678905157;2023-03-15 15:32:37;2023-03-15 15:34:31.009106
+Compra;Venda;Variação;Porcetagem de Variação;Máximo;Minimo;Data;hora
+Compra;Venda;Variação;Porcetagem de Variação;Máximo;Minimo;Data;hora
+Compra;Venda;Variação;Porcetagem de Variação;Máximo;Minimo;Data;hora
+{'USDBRL': {'code': 'USD', 'codein': 'BRL', 'name': 'Dólar Americano/Real Brasileiro', 'high': '5.3281', 'low': '5.2505', 'varBid': '0.043', 'pctChange': '0.82', 'bid': '5.2965', 'ask': '5.298', 'timestamp': '1678905157', 'create_date': '2023-03-15 15:32:37'}}
+{'USDBRL': {'code': 'USD', 'codein': 'BRL', 'name': 'Dólar Americano/Real Brasileiro', 'high': '5.3281', 'low': '5.2505', 'varBid': '0.0405', 'pctChange': '0.77', 'bid': '5.2943', 'ask': '5.2953', 'timestamp': '1678905391', 'create_date': '2023-03-15 15:36:31'}}
+{'USDBRL': {'code': 'USD', 'codein': 'BRL', 'name': 'Dólar Americano/Real Brasileiro', 'high': '5.3281', 'low': '5.2505', 'varBid': '0.0405', 'pctChange': '0.77', 'bid': '5.2943', 'ask': '5.2953', 'timestamp': '1678905391', 'create_date': '2023-03-15 15:36:31'}}
+{'USDBRL': {'code': 'USD', 'codein': 'BRL', 'name': 'Dólar Americano/Real Brasileiro', 'high': '5.3281', 'low': '5.2505', 'varBid': '0.0405', 'pctChange': '0.77', 'bid': '5.2943', 'ask': '5.2953', 'timestamp': '1678905391', 'create_date': '2023-03-15 15:36:31'}}
+{'USDBRL': {'code': 'USD', 'codein': 'BRL', 'name': 'Dólar Americano/Real Brasileiro', 'high': '5.1913', 'low': '5.1015', 'varBid': '-0.05', 'pctChange': '-0.96', 'bid': '5.14', 'ask': '5.142', 'timestamp': '1678303599', 'create_date': '2023-03-08 16:26:39'}}
